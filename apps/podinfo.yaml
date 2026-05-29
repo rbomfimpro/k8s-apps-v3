@@ -6,7 +6,7 @@ metadata:
     app.kubernetes.io/name: podinfo
   namespace: apps
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app.kubernetes.io/name: podinfo
